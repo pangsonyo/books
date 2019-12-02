@@ -24,3 +24,13 @@ https://blog.csdn.net/mrpre/article/details/72850598
 https://blog.csdn.net/mrpre/article/details/72850644
 ??
 https://mr-xiaojun.github.io/article/%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF%E5%AF%86%E7%A0%81%E5%AD%A6-ECDH%E5%92%8CECDSA/
+
+    public static long gcd(long n, long n1) {
+        while (n1 != 0) {
+            long rem = n % n1;
+            System.out.println(rem);
+            n = n1;
+            n1 = rem;
+        }
+        return n;
+    }
